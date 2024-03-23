@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Link from 'next/link';
-import Head from 'next/head';
+// import Head from 'next/head';
+
 
 export const metadata: Metadata = {
   title: "Poshak ",
@@ -15,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <Head><link href="https://fonts.cdnfonts.com/css/nexa-bold" rel="stylesheet" /></Head>
+{/*       <Head><link href="https://fonts.cdnfonts.com/css/nexa-bold" rel="stylesheet" /></Head> */}
       <body className="min-h-screen bg-[#fff]">{children}</body>
     </html>
   );
