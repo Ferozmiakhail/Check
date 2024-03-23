@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body, * {
-  font-family: Nexa;
+/*   font-family: Nexa; */
 } 
 
 /* @font-face {
