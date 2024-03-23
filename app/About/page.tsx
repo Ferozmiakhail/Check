@@ -1,6 +1,6 @@
 import React from "react";
 import Link from 'next/link';
-import { AiOutlineLeft } from "react-icons/ai";
+// import { AiOutlineLeft } from "react-icons/ai";
 import Image from "next/image";
 
 const Page = () => {
@@ -10,7 +10,7 @@ const Page = () => {
                 <div className="flex-between mx-auto w-full px-1 xs:px-1 sm:px-3">
                     <Link prefetch href="/">
                         <div className='flex'>
-                            <AiOutlineLeft className='h-[22px] w-[22px] mt-[3px] sm:h-[25px] sm:w-[25px] sm:mt-[2px] md:h-[30px] md:w-[30px] md:mt-[2px] lg:h-[35px] lg:w-[35px] lg:mt-[3px] xl:h-[35px] xl:w-[35px] xl:mt-[3px] 2xl:h-[40px] 2xl:w-[40px] 2xl:mt-[2px]' />
+{/*                             <AiOutlineLeft className='h-[22px] w-[22px] mt-[3px] sm:h-[25px] sm:w-[25px] sm:mt-[2px] md:h-[30px] md:w-[30px] md:mt-[2px] lg:h-[35px] lg:w-[35px] lg:mt-[3px] xl:h-[35px] xl:w-[35px] xl:mt-[3px] 2xl:h-[40px] 2xl:w-[40px] 2xl:mt-[2px]' /> */}
                             <div className='pointer text-center text-[18px] font-[500] h-full ml-[-4px] mt-[0px] sm:ml-[-6px] sm:mt-[0px] sm:text-[18px] sm:font-[500] md:ml-[-8px] md:mt-[2px] md:text-[20px] md:font-[500] lg:ml-[-8px] lg:mt-[4px] lg:text-[22px] lg:font-[500] xl:ml-[-8px] xl:mt-[4px] xl:text-[22px] xl:font-[500] 2xl:ml-[1px] 2xl:mt-[5px] 2xl:text-[24px]'>Close</div>
                         </div>
                     </Link>
