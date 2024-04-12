@@ -5,7 +5,7 @@ import { Navbar, Herobanner, Footerbanner } from "@/components/index";
 const Page = () => {
     return (
         <>
-            <Navbar /
+            <Navbar />
             <Herobanner />
 
 
